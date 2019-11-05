@@ -1,0 +1,101 @@
+body{
+    background-color: #D3D2CC;
+}
+p{
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #191919;
+    color: #D3D2CC;
+    font-size: 25px;
+}
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;   
+    background-color: #191919;
+    color: #D3D2CC
+}
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 50px;
+    margin-left: 20%;
+    font-size: 30px
+}
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline:#E60106 solid 3px
+}
+.image{
+    background-color: #D3D2CC;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 11px;
+    margin-top: 10px;
+}
+button{
+    position: static;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    background-color: #E60106;
+    border: none;
+    color: white;
+    padding: 10px 5% 10px 10%;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif; 
+    float: left;
+}
+button:hover{
+    transition-duration: .4s;
+    background-color: #191919;
+    cursor: pointer;
+}
+div{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0px;
+}
+.next{
+    float:right;
+}
+.next:after{
+    content: '\00bb';
+
+}
+.logo{
+    float: right;
+}
+figcaption{
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    background-color: #D3D2CC;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 5px;
+}
+.link{
+    color: #595959;
+}
+.link:hover{
+    transition-duration: .4s;
+    color: red;
+}
+.youtube{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.caption2{
+    font-size: 15px
+}
+ul{
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #191919;
+    color: #D3D2CC;
+    font-size: 25px;
+}
